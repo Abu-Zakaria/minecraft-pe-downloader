@@ -1,16 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--//- Menu-->
+    <div class="mc-menu">
+      <div class="mc-button full">
+        <div class="title">Singleplayer</div>
+      </div>
+      <div class="mc-button full">
+        <div class="title">Multiplayer</div>
+      </div>
+      <div class="mc-button full">
+        <div class="title">Minecraft Realms</div>
+      </div>
+      <div class="double">
+        <div class="mc-button full">
+          <div class="title">Options</div>
+        </div>
+        <div class="mc-button full">
+          <div class="title">Quit Game</div>
+        </div>
+      </div>
+      <div class="mc-button full lang">
+        <div class="title"><img src="https://i.ibb.co/99187Lk/lang.png" alt=" Lang"/></div>
+      </div>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+components: {
+  },
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
