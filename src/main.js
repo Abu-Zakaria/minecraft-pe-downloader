@@ -1,8 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/css/style.scss';
 
 require("@south-paw/typeface-minecraft");
-
-import './assets/css/minecraft.scss';
 
 import {createApp} from 'vue'
 

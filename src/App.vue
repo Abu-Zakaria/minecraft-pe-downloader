@@ -1,35 +1,49 @@
 <template>
-    <!--//- Menu-->
-    <div class="mc-menu">
-      <div class="mc-button full">
-        <div class="title">Singleplayer</div>
-      </div>
-      <div class="mc-button full">
-        <div class="title">Multiplayer</div>
-      </div>
-      <div class="mc-button full">
-        <div class="title">Minecraft Realms</div>
-      </div>
-      <div class="double">
-        <div class="mc-button full">
-          <div class="title">Options</div>
-        </div>
-        <div class="mc-button full">
-          <div class="title">Quit Game</div>
-        </div>
-      </div>
-      <div class="mc-button full lang">
-        <div class="title"><img src="https://i.ibb.co/99187Lk/lang.png" alt=" Lang"/></div>
-      </div>
+    <div class="container">
+        <HeaderComponent />
+
+        <DownloadableListComponent />
     </div>
 </template>
 
 <script>
+import { reactive } from 'vue';
+import HeaderComponent from './components/HeaderComponent.vue';
+import DownloadableListComponent from './components/DownloadableListComponent.vue';
 
 export default {
-components: {
-  },
-  name: 'App',
+    components: {
+        HeaderComponent,
+        DownloadableListComponent,
+    },
+    setup() {
+        const state = reactive({
+            downloadables: [
+                {
+                    text: "Hello",
+                },
+                {
+                    text: "Hello",
+                },
+                {
+                    text: "Hello",
+                },
+                {
+                    text: "Hello",
+                },
+                {
+                    text: "Hello",
+                },
+                {
+                    text: "Hello",
+                }
+            ],
+        })
+
+        return {
+            state,
+        }
+    }
 }
 </script>
 
