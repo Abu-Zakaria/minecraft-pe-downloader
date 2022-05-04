@@ -3,6 +3,8 @@
         <HeaderComponent />
 
         <DownloadableListComponent />
+
+        <FooterComponent />
     </div>
 </template>
 
@@ -10,11 +12,13 @@
 import { reactive } from 'vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import DownloadableListComponent from './components/DownloadableListComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
     components: {
         HeaderComponent,
         DownloadableListComponent,
+        FooterComponent,
     },
     setup() {
         const state = reactive({
