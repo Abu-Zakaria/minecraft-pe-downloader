@@ -6,7 +6,7 @@
              </div>
 
              <div class="col-md-12 mc-text">
-                 Made with &lt;3 by <a href="https://www.facebook.com/jakaria.blaine/" target="_blank">Jakaria</a>
+                 Made with &lt;3 by <a href="https://github.com/Abu-Zakaria/" target="_blank">Abu Zakaria</a>
              </div>
         </div>
     </div>
